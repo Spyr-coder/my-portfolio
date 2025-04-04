@@ -1,0 +1,218 @@
+/* === Reset & Base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #d0ffd0;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* === Navigation === */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 15px 25px;
+  border-bottom: 2px solid #00ff88;
+}
+
+header nav h1 {
+  color: #00ff88;
+  font-size: 1.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #d0ffd0;
+  transition: color 0.2s ease;
+}
+
+header nav ul li a:hover {
+  color: #00ff88;
+}
+
+/* === Hero Section === */
+.hero {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border: 1px solid #00ff88;
+  border-radius: 10px;
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* === Lists === */
+.hero ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.hero li {
+  margin-bottom: 10px;
+}
+
+/* === Contact Form === */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  background-color: #222;
+  border: 1px solid #00ff88;
+  color: #d0ffd0;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #00ff88;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #00cc70;
+}
+
+/* === Social Links === */
+.socials p a {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+.socials p a:hover {
+  text-decoration: underline;
+}
+
+/* === Footer === */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #00ff88;
+  color: #888;
+}
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navigation */
+header {
+    background-color: #121212;
+    padding: 20px;
+    border-bottom: 1px solid #00ff88;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #00ff88;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ff88;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #00ff88;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #0f0f0f;
+    background-color: #00ff88;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #00cc66;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #00ff88;
+    font-size: 0.9rem;
+    color: #777;
+}
